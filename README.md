@@ -7,7 +7,7 @@ O **MineMercado** permite aos clientes visualizarem produtos divididos em catego
 
 ---
 
-## 📂 Estrutura do Projeto  
+## 📂 Estrutura do Projeto parte 1
 📁 mine-mercado/
 
 ├── 📄 index.html → Página inicial
