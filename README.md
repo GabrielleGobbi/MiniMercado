@@ -18,7 +18,7 @@ O **MineMercado** permite aos clientes visualizarem produtos divididos em catego
 
 ├── 📄 contato.html → Página de contato
 
-├── 📁 imagens/ → Contém as imagens dos produtos 
+├── 📁 img/ → Contém as imagens dos produtos 
 
 └── 📄 README.md → Informações sobre o projeto
 ---
