@@ -43,7 +43,7 @@ O minimercado apresenta três categorias de produtos:
 
 ### 🧼 Produtos de Higiene e Limpeza  
 - **Sabão em Pó** - R$ 15,00 (1kg)  
-- **Shampoo** - R$ 10,00 (500ml)  
+- **Shampoo** - R$ 20,00 (400ml)  
 
 ---
 
