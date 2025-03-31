@@ -1,0 +1,132 @@
+/*  Definição das cores principais */
+:root {
+    --cor-primaria: #6A0DAD;
+    --cor-secundaria: #9B30FF;
+    --cor-destaque: #FFD700;
+    --cor-fundo: #f8f9fa;
+    --cor-texto: #1c1c1c;
+    --cor-escura: #1c1c1c;
+    --cor-texto-claro: #ffffff;
+}
+
+/*  Cabeçalho */
+header {
+    background-color: var(--cor-primaria);
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+/*  Barra de navegação */
+.navbar {
+    background-color: var(--cor-primaria);
+    padding: 10px;
+}
+
+/*  Ajuste do menu */
+.navbar-nav .nav-link {
+    font-weight: bold;
+    color: var(--cor-texto-claro) !important;
+    padding: 12px 15px;
+    transition: 0.3s ease-in-out;
+    font-size: 1.1rem;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: var(--cor-destaque);
+    color: #333 !important;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+/*  Seção de produtos */
+.container-produtos {
+    flex: 1;
+    padding-bottom: 100px; /* Garante que não fique escondido pelo footer */
+    margin-bottom: 50px;
+}
+
+/*  Cartões de produtos */
+.card {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/*  Estilização do modal */
+.modal-content {
+    background-color: var(--cor-fundo);
+    text-align: center;
+}
+
+.modal-header {
+    background-color: var(--cor-primaria);
+    color: var(--cor-texto-claro);
+}
+
+/* Mantendo o rodapé sempre fixo */
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: var(--cor-escura);
+    padding: 20px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+/*  Botões interativos */
+.btn-servico {
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid var(--cor-primaria);
+    background-color: var(--cor-fundo);
+    color: var(--cor-primaria);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.btn-servico:hover {
+    background-color: var(--cor-primaria);
+    color: white;
+}
+
+/*  Estilização do Agendamento */
+.agendamento-container {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 50px; /* Para evitar que o botão fique muito próximo do footer */
+    text-align: center;
+}
+
+/*  Estilização do botão Agendar e Enviar Mensagem */
+.btn-primary {
+    background-color: var(--cor-primaria); /* Roxo */
+    border: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: var(--cor-secundaria); /* Tom mais claro de roxo */
+    color: white;
+}
+
+
